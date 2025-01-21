@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.Dhanush - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #343a40;
+        }
+
+        nav .navbar-brand,
+        nav .nav-link {
+            color: #f8f9fa !important;
+        }
+
+        nav .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-color: #6c63ff;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        /* Profile Section */
+        .profile {
+            background-color: #ff6f61;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .profile h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        /* Skills Section */
+        .resume-section {
+            background-color: #17a2b8;
+            color: #fff;
+            padding: 60px 20px;
+        }
+
+        .resume-section h2 {
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .resume-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .resume-section ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        /* Projects Section */
+        .projects {
+            background-color: #ffc107;
+            color: #343a40;
+            padding: 60px 20px;
+        }
+
+        .projects h3 {
+            margin-bottom: 15px;
+        }
+
+        .project-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card ul {
+            padding-left: 20px;
+            list-style: disc;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: #f8f9fa;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">R.Dhanush</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Hello, I'm R.Dhanush</h1>
+            <p>Full-Stack Java Developer | Passionate About Building Web Applications</p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile">
+        <div class="container">
+           <!--  <img src="profile.jpg" alt="Profile Image"> --> <!-- Replace with your profile image -->
+            <h2>About Me</h2>
+            <p>I am a Full-Stack Java Developer with expertise in building modern web applications using JSE, JEE, Hibernate, and front-end technologies like HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="resume-section">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Front-End Development: HTML, CSS</li>
+                        <li>Back-End Development: Java SE, Java EE (Servlets, JSP, Expression Language)</li>
+                        <li>Database Management: MySQL, JDBC</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Version Control: Git, GitHub</li>
+                        <li>Frameworks & Tools: Basic Hibernate</li>
+                        <li>Problem-Solving & Algorithm Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <!-- Food Delivery App -->
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h3>Food Delivery App</h3>
+                        <p>A web application for online food ordering with advanced features.</p>
+                        <ul>
+                            <li>Technologies: Java (JEE), JSP, Servlets, Hibernate</li>
+                            <li>Features: User authentication, cart management, and order history</li>
+                            <li>Database: MySQL with JDBC integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Mini Quiz Application -->
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h3>Mini Quiz Application</h3>
+                        <p>An interactive quiz application focusing on core Java concepts.</p>
+                        <ul>
+                            <li>Built with Java Standard Edition (JSE)</li>
+                            <li>Features: Dynamic questions, error handling</li>
+                            <li>Used string arrays, loops, and modular methods</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 <a href="#">R.Dhanush</a> - All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
